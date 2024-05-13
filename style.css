@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    text-transform: uppercase;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-image: url("img/Garden.jpg");
+    background-size: cover;
+
+}
+
+h2 {
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.clock {
+    display: flex;
+
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    background-color: slateblue;
+    width: 100px;
+    height: 80px;
+    color: white;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5px
+    );
+}
+
+.clock .text {
+    font-size: 13px;
+    background-color: darkblue;
+    height: 40px;
+    width: 100px;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.clock #ampm {
+    background-color: green;
+    bottom: 0;
+    font-size: 20px;
+    height: 35px;
+    width: 60px;
+    position: absolute;
+}
